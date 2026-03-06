@@ -213,7 +213,7 @@ EOF
 
 
 # 立即生效：
-Bashsource ~/.bashrc
+source ~/.bashrc
 echo $ALL_PROXY
 
 ------------ ⚠️ 复制上面的所有内容（不要复制这一行！！）--------------
@@ -222,4 +222,5 @@ echo $ALL_PROXY
 
 # 同理，執行完後立即測試：
 执行完之后，重点先测试下🚀google的连接是否正常🚀：
+
 curl -I https://www.google.com
